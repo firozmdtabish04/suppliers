@@ -109,9 +109,6 @@ function Navbar() {
               Home
             </Link>
 
-            <Link to="/items" className={navLink}>
-              Item List
-            </Link>
             <Link to="/contact" className={navLink}>
               Contact
             </Link>
@@ -152,9 +149,6 @@ function Navbar() {
 
             <Link to="/contact" onClick={() => setMenuOpen(false)}>
               Contact
-            </Link>
-            <Link to="/items" onClick={() => setMenuOpen(false)}>
-              Price
             </Link>
 
             {isAuth ? (

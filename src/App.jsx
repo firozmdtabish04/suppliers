@@ -5,7 +5,6 @@ import Footer from "./components/layout/footer/Footer";
 import Hall from "./pages/Hall";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
-import PricList from "./pages/PricList";
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/hall" element={<Hall />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/items" element={<PricList />} />
           </Routes>
         </div>
 

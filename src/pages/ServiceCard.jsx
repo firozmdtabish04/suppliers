@@ -9,10 +9,10 @@ const ServiceCard = ({ title, img }) => {
         <h3 className="font-bold text-lg">{title}</h3>
 
         <Link
-          to="/items"
+          to="/contact"
           className="block mt-3 bg-indigo-600 text-white py-2 rounded"
         >
-          {title === "Marriage Hall" ? "View Halls" : "View Prices"}
+          {title === "Marriage Hall" ? "Book Now" : "Get Best Price"}
         </Link>
       </div>
     </div>
