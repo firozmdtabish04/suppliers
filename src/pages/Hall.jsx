@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { getAllHalls, createHall, deleteHall } from "../services/hallService";
 
 // MUI
 import { DataGrid } from "@mui/x-data-grid";

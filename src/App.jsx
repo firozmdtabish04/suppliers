@@ -6,7 +6,6 @@ import Hall from "./pages/Hall";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import PricList from "./pages/PricList";
-import Login from "./pages/Login";
 
 function App() {
   return (
@@ -19,8 +18,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/hall" element={<Hall />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/price" element={<PricList />} />
-            <Route path="/login" element={<Login />} />
+            <Route path="/items" element={<PricList />} />
           </Routes>
         </div>
 

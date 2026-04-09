@@ -108,32 +108,13 @@ function Navbar() {
             <Link to="/" className={navLink}>
               Home
             </Link>
-            <Link to="/hall" className={navLink}>
-              Hall
+
+            <Link to="/items" className={navLink}>
+              Item List
             </Link>
             <Link to="/contact" className={navLink}>
               Contact
             </Link>
-            <Link to="/price" className={navLink}>
-              Price
-            </Link>
-
-            {isAuth ? (
-              <button
-                onClick={handleLogout}
-                className="bg-red-500 px-3 py-1 rounded hover:bg-red-600 transition"
-              >
-                <FontAwesomeIcon icon={faSignOutAlt} /> Logout
-              </button>
-            ) : (
-              <Link
-                to="/login"
-                className="bg-green-500 px-3 py-1 rounded-xl hover:bg-green-600 transition"
-              >
-                <FontAwesomeIcon icon={faSignInAlt} />
-                Login
-              </Link>
-            )}
           </div>
 
           {/* RIGHT */}
@@ -168,13 +149,11 @@ function Navbar() {
             <Link to="/" onClick={() => setMenuOpen(false)}>
               Home
             </Link>
-            <Link to="/hall" onClick={() => setMenuOpen(false)}>
-              Hall
-            </Link>
+
             <Link to="/contact" onClick={() => setMenuOpen(false)}>
               Contact
             </Link>
-            <Link to="/price" onClick={() => setMenuOpen(false)}>
+            <Link to="/items" onClick={() => setMenuOpen(false)}>
               Price
             </Link>
 
