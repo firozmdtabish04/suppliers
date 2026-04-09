@@ -1,18 +1,72 @@
-# React + Vite
+link to go: https://rani-firoz.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
 
-## React Compiler
+# 🚀 SUPPLIERS APP
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+A modern React-based web application built with **Vite + Tailwind CSS**, featuring a scalable architecture with guards, hooks, and reusable utilities.
 
-Note: This will impact Vite dev & build performances.
+🔗 **Live Demo**: (Add your deployed link here)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📌 Features
+
+- ⚡ Fast development with Vite
+- 🎨 Clean and responsive UI using Tailwind CSS
+- 🔐 Route protection using Guards
+- 🧠 Custom React Hooks for logic reuse
+- 🧩 Reusable Components architecture
+- 📁 Organized and scalable folder structure
+- 🚀 Production-ready build setup
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- React.js
+- Vite
+- Tailwind CSS
+
+### Architecture
+- Custom Hooks
+- Route Guards
+- Utility Functions
+
+### Tools
+- ESLint
+- Prettier
+- PostCSS
+- Vercel (Deployment)
+
+---
+
+## 📁 Project Structure
+
+suppliers/
+│
+├── dist/ # Production build
+├── public/ # Static files
+├── src/
+│ ├── assets/ # Images & static resources
+│ ├── components/ # Reusable UI components
+│ ├── guard/ # Route protection logic
+│ ├── hooks/ # Custom React hooks
+│ ├── pages/ # Application pages
+│ ├── utils/ # Helper functions
+│ ├── App.jsx # Root component
+│ ├── App.css
+│ ├── index.css
+│ └── main.jsx # Entry point
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+├── vercel.json
+├── eslint.config.js
+├── .gitignore
+└── README.md
