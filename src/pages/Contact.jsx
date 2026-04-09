@@ -82,7 +82,7 @@ function Contact() {
               <FontAwesomeIcon icon={faPhone} /> +91 9934261468
             </p>
             <p>
-              <FontAwesomeIcon icon={faEnvelope} /> support@hallbooking.com
+              <FontAwesomeIcon icon={faEnvelope} /> mdfirozakhtar314@gmail.com
             </p>
           </div>
 
